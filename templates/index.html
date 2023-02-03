@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+
+{%block content%}
+
+
+<h1> BIENVENIDOS A DISTRIBUIDORA RINALDI</h1>
+    
+<ul class="list-group">
+
+    {% for product in product_list %}
+
+    <li class="list-group-item">
+        {{product.tittle}}
+        <span class="text-success"> ${{product.price}}</span>
+    </li>
+    {% endfor %}
+</ul>
+
+
+
+{%endblock%}
