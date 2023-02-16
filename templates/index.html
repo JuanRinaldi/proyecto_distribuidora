@@ -2,20 +2,15 @@
 
 {%block content%}
 
+<div class="col">
+    <h4 class="text-center"> {{message}}</h4>
+    {% include 'snippets/search.html'%}
+    {% include 'snippets/list.html' %}
+</div>
 
-<h1> BIENVENIDOS A DISTRIBUIDORA RINALDI</h1>
-    
-<ul class="list-group">
+<div class="col">
 
-    {% for product in product_list %}
-
-    <li class="list-group-item">
-        {{product.tittle}}
-        <span class="text-success"> ${{product.price}}</span>
-    </li>
-    {% endfor %}
-</ul>
-
-
+</div>
 
 {%endblock%}
+
