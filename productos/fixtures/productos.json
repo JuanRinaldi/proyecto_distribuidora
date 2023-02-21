@@ -1,0 +1,218 @@
+[
+{
+    "model": "productos.product",
+    "pk": 1,
+    "fields": {
+        "tittle": "Gin tanqueray",
+        "description": "Gin Tanqueray de 910cc. Importado.\r\nCaja x6 por mayor\r\n(precio por unidad)",
+        "price": "4000.00",
+        "slug": "gin-tanqueray",
+        "image": "products/gin-tanqueray.png",
+        "created_at": "2023-02-03T01:15:28.170Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 2,
+    "fields": {
+        "tittle": "Ron Havana Club Dorado",
+        "description": "Ron Havana Club dorado, de 710cc.\r\nSe vende por unidad o por caja de 12 unid.\r\n(precio por unidad)",
+        "price": "2500.00",
+        "slug": "ron-havana-club-dorado",
+        "image": "products/ron-havana-dorado.png",
+        "created_at": "2023-02-06T20:22:49.071Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 3,
+    "fields": {
+        "tittle": "Gin Aconcagua",
+        "description": "Gin Aconcagua. (precio por unidad)\r\nConsultar venta por mayor",
+        "price": "2500.00",
+        "slug": "gin-aconcagua",
+        "image": "products/gin-aconcagua.png",
+        "created_at": "2023-02-06T20:23:43.482Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 4,
+    "fields": {
+        "tittle": "Ron Havana Club blanco",
+        "description": "Ron Havana Club blanco. Caja por 12 unidades.\r\n(precio por unidad)",
+        "price": "2120.00",
+        "slug": "ron-havana-club-blanco",
+        "image": "products/ron-havana-blanco.png",
+        "created_at": "2023-02-06T20:24:22.334Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 5,
+    "fields": {
+        "tittle": "Ron Bacardi Dorado",
+        "description": "Ron Bacardi Dorado. Caja por 12 unidades\r\n(precio por unidad)",
+        "price": "2200.00",
+        "slug": "ron-bacardi-dorado",
+        "image": "products/ron-bacardi-dorado.png",
+        "created_at": "2023-02-06T20:24:55.170Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 6,
+    "fields": {
+        "tittle": "Ron Bacardi Blanco",
+        "description": "Ron Bacardi Blanco. Caja por 12 unidades\r\n(precio por unidad)",
+        "price": "2000.00",
+        "slug": "ron-bacardi-blanco",
+        "image": "products/ron-bacardi-blanco.png",
+        "created_at": "2023-02-06T20:25:22.175Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 7,
+    "fields": {
+        "tittle": "Gin Aconcagua verde",
+        "description": "Gin Aconcagua verde\r\nVenta:\r\npor unidad\r\npor caja de 6 unidades",
+        "price": "3000.00",
+        "slug": "gin-aconcagua-verde",
+        "image": "products/aconcagua_verde.png",
+        "created_at": "2023-02-21T13:34:43.134Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 8,
+    "fields": {
+        "tittle": "Gin Aconcagua blanco",
+        "description": "Gin Aconcagua blanco\r\nVenta:\r\nPor unidad\r\nPor caja de 6 unidades",
+        "price": "3100.00",
+        "slug": "gin-aconcagua-blanco",
+        "image": "products/aconcagua_blanco.png",
+        "created_at": "2023-02-21T13:35:10.671Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 9,
+    "fields": {
+        "tittle": "Whisky J&B",
+        "description": "Whisky J&B\r\n\r\nVenta:\r\nPor unidad\r\nPor caja de 6 unidades",
+        "price": "3500.00",
+        "slug": "whisky-jb",
+        "image": "products/jb.png",
+        "created_at": "2023-02-21T13:35:43.069Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 10,
+    "fields": {
+        "tittle": "Whisky Jameson",
+        "description": "Venta:\r\nPor unidad\r\nPor caja de 6 unidades",
+        "price": "2850.00",
+        "slug": "whisky-jameson",
+        "image": "products/jb_GyP9Rin.png",
+        "created_at": "2023-02-21T13:36:26.670Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 11,
+    "fields": {
+        "tittle": "Whisky Jack Daniels",
+        "description": "Venta:\r\nPor unidad\r\nPor caja de 6 unidades",
+        "price": "5000.00",
+        "slug": "whisky-jack-daniels",
+        "image": "products/jack_daniels.png",
+        "created_at": "2023-02-21T13:36:46.063Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 12,
+    "fields": {
+        "tittle": "Whisky Red Label",
+        "description": "Venta:\r\nPor unidad\r\nPor caja de 6 unidades",
+        "price": "7000.00",
+        "slug": "whisky-red-label",
+        "image": "products/red_label.png",
+        "created_at": "2023-02-21T13:37:10.986Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 13,
+    "fields": {
+        "tittle": "Vodka Skyy",
+        "description": "Venta:\r\nPor unidad\r\nPor caja de 12 unidades",
+        "price": "1210.00",
+        "slug": "vodka-skyy",
+        "image": "products/vodka_wO5qgY6.png",
+        "created_at": "2023-02-21T13:37:33.094Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 14,
+    "fields": {
+        "tittle": "Vodka Smirnoff",
+        "description": "Venta:\r\nPor unidad\r\nPor caja de 12 unidades",
+        "price": "1310.00",
+        "slug": "vodka-smirnoff",
+        "image": "products/smirnoff_HZktLGV.png",
+        "created_at": "2023-02-21T13:37:50.688Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 15,
+    "fields": {
+        "tittle": "Vodka Absolut",
+        "description": "Venta:\r\nPor unidad\r\nPor caja de 6 unidades",
+        "price": "3200.00",
+        "slug": "vodka-absolut",
+        "image": "products/absolut_k2Vz3eH.png",
+        "created_at": "2023-02-21T13:38:24.959Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 16,
+    "fields": {
+        "tittle": "Fernet Branca 750cc",
+        "description": "Venta:\r\nPor unidad\r\nPor caja de 6 unidades",
+        "price": "1870.00",
+        "slug": "fernet-branca-750cc",
+        "image": "products/fernet_nYwlYs9.png",
+        "created_at": "2023-02-21T13:38:48.304Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 17,
+    "fields": {
+        "tittle": "Americano Gancia",
+        "description": "Venta:\r\nPor unidad\r\nPor caja de 12 unidades",
+        "price": "1000.00",
+        "slug": "americano-gancia",
+        "image": "products/gancia_jS9YYQq.png",
+        "created_at": "2023-02-21T13:39:05.672Z"
+    }
+},
+{
+    "model": "productos.product",
+    "pk": 18,
+    "fields": {
+        "tittle": "Gin Gordons",
+        "description": "Venta:\r\nPor unidad\r\nPor caja de 6 unidades",
+        "price": "2200.00",
+        "slug": "gin-gordons",
+        "image": "products/gordons_Z47PNNX.png",
+        "created_at": "2023-02-21T13:39:27.998Z"
+    }
+}
+]

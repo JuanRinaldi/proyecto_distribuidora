@@ -21,6 +21,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'users',
     'productos',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -41,6 +42,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'distribuidora.urls'
+
+AUTH_USER_MODEL = 'users.User'
 
 TEMPLATES = [
     {

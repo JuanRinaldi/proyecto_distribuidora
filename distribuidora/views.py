@@ -5,6 +5,7 @@ from django.contrib.auth import login
 from django.contrib.auth import logout
 from django.contrib import messages
 from .forms import RegisterForm
+from users.models import User
 
 
 def index(request):
